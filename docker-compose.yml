@@ -1,0 +1,10 @@
+version: '3'
+services:
+  wavelink:
+    restart: always
+    image: pieewiee/wavelink-license-server:latest
+    hostname: wavelink
+    ports:
+    - "78.47.138.132:1820:1820/udp"
+    - "78.47.138.132:53:53/tcp"
+ 
