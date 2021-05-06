@@ -1,5 +1,5 @@
 
-# pieewiee/bind:latest
+# pieewiee/wavelink-license-server:latest
 
 - [Introduction](#introduction)
 - [Getting started](#getting-started)
