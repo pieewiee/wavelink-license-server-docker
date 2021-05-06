@@ -17,7 +17,7 @@ COPY entrypoint.sh /sbin/entrypoint.sh
 
 RUN chmod 755 /sbin/entrypoint.sh
 RUN cd /root/
-RUN unzip /root/deb/wlcls-4.3.4.0-20110520092552.amd64.deb'
+RUN unzip ivantiLicenseServerLinux.zip'
 RUN nohup bash -c 'dpkg -i --force-depends  /root/deb/wlcls-4.3.4.0-20110520092552.amd64.deb'
 
 EXPOSE 1820/udp 4420/tcp
